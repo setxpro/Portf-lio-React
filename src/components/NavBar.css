@@ -1,0 +1,53 @@
+.navBar {
+
+    width: 100%;
+    height: 100px;
+    background-color: rgb(18, 18, 20);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+
+    -webkit-box-shadow: 0px 7px 26px 4px rgba(0,0,0,0.49); 
+    box-shadow: 0px 7px 26px 4px rgba(0,0,0,0.49);
+}
+
+.navBar > nav > ul {
+    display: flex;
+    gap: 1.3rem;
+    text-decoration: none;
+}
+.navBar > nav > ul > li  {
+    list-style: none;
+}
+.navBar > nav > ul > li > a {
+    color: aliceblue;
+    text-decoration: none;
+        
+    color: rgb(115, 115, 128);
+    transition: color 0.2s ease 0s;
+}
+
+.navBar > nav > ul > li > a:hover {
+    color: #fff;
+}
+
+.area-img {
+    height: 55px;
+    width: 55px;
+}
+.imagem {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 2px;
+    border: 2px solid rgb(225, 225, 230);
+    border-radius: 100%;
+
+    background-image: url(../img/Avatar.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-clip: content-box;
+}

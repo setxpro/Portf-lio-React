@@ -1,0 +1,205 @@
+.containerRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.box-card-right {
+    
+    width: 705px;
+    height: 260px;
+    background-color: rgb(32, 32, 36);
+
+
+    margin-top: 40px;
+
+    padding: 40px 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+
+    margin-left: 60px;
+}
+
+.box-card-right .area-title {
+    width: 97%;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+}
+.box-card-right .area-title > h2 {
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.box-card-right > p {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.box-card-right .area-button  {
+    width: 97%;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+
+    margin-top: 1rem;
+
+}
+
+.box-card-right .area-button > button {
+    width: 98px;
+    height: 44px;
+    background: rgb(41, 41, 46);
+    padding: 14px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s linear;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.box-card-right .area-button > button > svg {
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+
+}
+.box-card-right .area-button > button:active {
+    background-color: transparent;
+    outline: none;
+}
+
+#atividades {
+   
+  background-color: rgb(32, 32, 36);
+}
+
+/*  NEXT SECTION */
+
+
+.container--cards {
+    width: 705px;
+    height: 100%;
+    padding: 40px 30px;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 8px;
+    background-color: rgb(32, 32, 36);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container--atividades {
+    
+    width: 705px;
+    height: 100%;
+    
+    margin-top: 120px;
+    margin-left: 60px;
+
+    background-color: rgb(32, 32, 36);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.container--atividades .container--title {
+    width: 705px;
+    
+}
+.container--atividades .container--title > h2 {
+    background-color: rgb(32, 32, 36);
+    margin-top: -30px;
+    border-radius: 8px 8px 0px 0px;
+    
+}
+
+
+.container--title h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgb(32, 32, 36);
+}
+
+.content--tec {
+    display: flex;
+    background-color: rgb(32, 32, 36);
+    margin-top: 2rem;
+}
+
+.container--area--tec {
+    
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+}
+.container--tec {
+    width: 222px;
+    height: 100%;
+    background-color: rgb(32, 32, 36);
+    border-left: 1px solid #555;
+}
+
+
+.area--icon--tec {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+}
+.icon--tec {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55px;
+    height: 100%;
+    background-color: transparent;
+}
+.icon--tec > svg {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+}
+.icon--tec > p {
+    font-size: 0.6rem;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+
+.group-area {
+    
+    background-color: rgb(32, 32, 36);
+}
+.group-one {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(32, 32, 36);
+}
+
+
+#atividades {
+    display: flex;
+    justify-content: center;
+}

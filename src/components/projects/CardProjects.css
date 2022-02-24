@@ -1,0 +1,49 @@
+.cardItem {
+    width: 240px;
+    height: 60px;
+    background-color: transparent;
+    margin: 1rem;
+    
+    color: #fff;
+}
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+button {
+    width: 98px;
+    height: 44px;
+    background: rgb(41, 41, 46);
+    padding: 14px;
+    border: 0;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: transparent;
+    outline: none;
+}
+img {
+    background-color: transparent;
+     width: 320px;
+     height: 90px;
+}
+.cardItem {
+    width: 348px;
+    height: 165px;
+    margin-bottom: 1.3rem;
+    border-bottom: 2px dashed #555;
+}
+.cntainer--card--item {
+    width: 350px;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+}
