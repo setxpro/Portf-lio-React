@@ -9,15 +9,15 @@ export function CardProjects() {
     return (
         <div className='cntainer--card--item'>
             <div className='cardItem'>
-                <a href="https://moveit-two-ecru.vercel.app/" target="_blank">
-                    <img src={Moveit} /> 
+                <a href="https://moveit-two-ecru.vercel.app/" target="_blank" rel="noreferrer">
+                    <img src={Moveit} alt="Move.it" /> 
                     
                 </a>
                 <button>Move.it</button>
             </div>
             <div className='cardItem'>
-            <a href='https://patrick-dsvendas.netlify.app/' target="_blank">
-                <img src={DsVendas} /> 
+            <a href='https://patrick-dsvendas.netlify.app/' target="_blank" rel="noreferrer">
+                <img src={DsVendas} alt="DsVendas"/> 
                 
             </a>
                 <button>DsVendas</button>
