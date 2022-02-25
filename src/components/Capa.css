@@ -5,3 +5,8 @@
     background-position: center;
 }
 
+@media screen and (max-width: 820px) {
+    .capa {
+        height: 200px;
+    }
+}

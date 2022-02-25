@@ -95,19 +95,19 @@ export function CardsRight() {
 
             {/* ATIVIDADES */}
          
-         <div className='container--atividades'>
-              <div className='container--atividades--area'>
+            <div className='container--atividades'>
+                <div className='container--atividades--area'>
                     <div className='group-area'>
-                        <div className='container--title'>
+                      <div className='container--title'>
                         <h2 id="atividades">Atividades em Produção</h2>
-                        </div>
-                        <div className='group-one'>
+                      </div>
+                      <div className='group-one'>
                         <CardProjects/>   
-                    </div>
+                      </div>
                     </div>
                 </div>
-                </div>
-              </div>
+            </div>
+        </div>
          
         
         

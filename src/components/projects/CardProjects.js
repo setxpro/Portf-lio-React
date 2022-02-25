@@ -13,14 +13,14 @@ export function CardProjects() {
                     <img src={Moveit} alt="Move.it" /> 
                     
                 </a>
-                <button>Move.it</button>
+                <a href="https://moveit-two-ecru.vercel.app/" target="_blank" rel="noreferrer"><button>Move.it</button></a>
             </div>
             <div className='cardItem'>
             <a href='https://patrick-dsvendas.netlify.app/' target="_blank" rel="noreferrer">
                 <img src={DsVendas} alt="DsVendas"/> 
                 
             </a>
-                <button>DsVendas</button>
+               <a href='https://patrick-dsvendas.netlify.app/' target="_blank" rel="noreferrer"> <button>DsVendas</button></a>
             </div>
             
         </div>

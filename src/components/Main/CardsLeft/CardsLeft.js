@@ -25,7 +25,8 @@ export function CardsLeft() {
             </div>
              
         </div>
-        <aside>
+       <div className='cont'>
+            <aside>
             <div className='content-relacionado'>
                 <h2>Objetivos</h2>
                 <p>Estágio em Análise e desenvolvimento de sistemas</p>
@@ -49,6 +50,7 @@ export function CardsLeft() {
                 <p>Possuo habilitação - B</p>
             </div>
         </aside>
+       </div>
         </div>
     );
 }
