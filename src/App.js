@@ -1,5 +1,5 @@
 import './App.css';
-import  { Capa }  from './components/Capa';
+import { Capa }  from './components/Capa';
 import { Main } from './components/Main/Main';
 import { Footer } from './components/Main/footer/footer'; 
 import NavBar from './components/NavBar';

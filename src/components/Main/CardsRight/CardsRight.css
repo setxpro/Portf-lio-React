@@ -58,23 +58,28 @@
     width: 98px;
     height: 44px;
     background: rgb(41, 41, 46);
-    padding: 14px;
+    /* padding: 14px; */
     border: 0;
     border-radius: 5px;
     font-size: 14px;
     color: rgb(255, 255, 255);
     transition: all 0.2s linear;
     cursor: pointer;
-
-    display: flex;
-    align-items: center;
-    gap: 10px;
 }
-.box-card-right .area-button > button > svg {
+
+.box-card-right .area-button > button > a {
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: -5px;
+    margin-left: -5px;
+    width: 98px;
+    height: 44px;
+}
+.box-card-right .area-button > button > a > svg {
     width: 25px;
     height: 25px;
     background-color: transparent;
-
+    
 }
 .box-card-right .area-button > button:active {
     background-color: transparent;
